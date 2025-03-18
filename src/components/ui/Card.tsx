@@ -1,9 +1,9 @@
-import React from "react";
+# Query: import { Card, CardContent } from "@/components/ui/card";
+# ContextLines: 1
 
-export function Card({ children }: { children: React.ReactNode }) {
-  return <div className="p-4 border rounded-lg shadow-md">{children}</div>;
-}
+1 result - 1 file
 
-export function CardContent({ children }: { children: React.ReactNode }) {
-  return <div className="mt-2">{children}</div>;
-}
+page.tsx:
+  1  import React from "react";
+  2: import { Card, CardContent } from "@/components/ui/Card";
+  3  import { Button } from "@/components/ui/button";
