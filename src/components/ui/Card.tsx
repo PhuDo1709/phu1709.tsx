@@ -1,4 +1,4 @@
-# Query: import { Card, CardContent } from "@/components/ui/card";
+# Query: import { Card, CardContent } from "@/components/ui/Card";
 # ContextLines: 1
 
 1 result - 1 file
