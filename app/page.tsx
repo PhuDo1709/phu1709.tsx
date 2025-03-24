@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { TrendingUp, Home, Briefcase, DollarSign, Settings } from "lucide-react";
 import styles from "./page.module.css";
 
 export default function Home() {
