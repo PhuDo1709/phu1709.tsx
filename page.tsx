@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/Card";
 import { Button } from "@/components/ui/button";
 import { FiTrendingUp, FiHome, FiBriefcase, FiDollarSign, FiSettings } from "lucide-react";
 
