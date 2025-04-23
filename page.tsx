@@ -1,20 +1,30 @@
 import React from "react";
 import { Card, CardContent } from "@/components/ui/Card";
 import { Button } from "@/components/ui/button";
-import { FiTrendingUp, FiHome, FiBriefcase, FiDollarSign, FiSettings } from "lucide-react";
+import {
+  FiTrendingUp,
+  FiHome,
+  FiBriefcase,
+  FiDollarSign,
+  FiSettings,
+} from "lucide-react";
 
 const InvestmentApp = () => {
   return (
     <div className="min-h-screen bg-gradient-to-r from-blue-100 to-blue-300 p-6 flex flex-col items-center">
       {/* Header */}
-      <h1 className="text-4xl font-extrabold text-blue-800 mb-8 drop-shadow-lg">No Worry App</h1>
-      
+      <h1 className="text-4xl font-extrabold text-blue-800 mb-8 drop-shadow-lg">
+        No Worry App
+      </h1>
+
       {/* Portfolio Summary */}
       <Card className="w-full max-w-md bg-white shadow-2xl rounded-3xl p-6 mb-8 transform transition duration-300 hover:scale-105">
         <CardContent className="flex justify-between items-center">
           <div>
             <p className="text-gray-600 text-lg">Total Portfolio</p>
-            <h2 className="text-3xl font-extrabold text-gray-900">$100,000 USDT</h2>
+            <h2 className="text-3xl font-extrabold text-gray-900">
+              $100,000 USDT
+            </h2>
           </div>
           <FiTrendingUp className="text-green-500 text-5xl" />
         </CardContent>
