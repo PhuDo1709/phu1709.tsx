@@ -22,17 +22,37 @@ const InvestmentApp = () => {
 
       {/* Quick Actions */}
       <div className="grid grid-cols-2 gap-6 w-full max-w-md">
-        <Button variant="outline" className="flex items-center gap-3 px-6 py-3 rounded-xl text-lg font-semibold shadow-lg bg-white hover:bg-blue-200 transition-all">
-          <FiDollarSign className="text-blue-600" /> Link Bank
+        <Button
+          variant="outline"
+          className="flex items-center gap-3 px-6 py-3 rounded-xl text-lg font-semibold shadow-lg bg-white hover:bg-blue-200 transition-all"
+          aria-label="Link Bank"
+        >
+          <FiDollarSign className="text-blue-600" />
+          Link Bank
         </Button>
-        <Button variant="outline" className="flex items-center gap-3 px-6 py-3 rounded-xl text-lg font-semibold shadow-lg bg-white hover:bg-green-200 transition-all">
-          <FiBriefcase className="text-green-600" /> Crypto & Stocks
+        <Button
+          variant="outline"
+          className="flex items-center gap-3 px-6 py-3 rounded-xl text-lg font-semibold shadow-lg bg-white hover:bg-green-200 transition-all"
+          aria-label="Crypto & Stocks"
+        >
+          <FiBriefcase className="text-green-600" />
+          Crypto & Stocks
         </Button>
-        <Button variant="outline" className="flex items-center gap-3 px-6 py-3 rounded-xl text-lg font-semibold shadow-lg bg-white hover:bg-yellow-200 transition-all">
-          <FiHome className="text-yellow-600" /> Real Estate
+        <Button
+          variant="outline"
+          className="flex items-center gap-3 px-6 py-3 rounded-xl text-lg font-semibold shadow-lg bg-white hover:bg-yellow-200 transition-all"
+          aria-label="Real Estate"
+        >
+          <FiHome className="text-yellow-600" />
+          Real Estate
         </Button>
-        <Button variant="outline" className="flex items-center gap-3 px-6 py-3 rounded-xl text-lg font-semibold shadow-lg bg-white hover:bg-gray-300 transition-all">
-          <FiSettings className="text-gray-600" /> Settings
+        <Button
+          variant="outline"
+          className="flex items-center gap-3 px-6 py-3 rounded-xl text-lg font-semibold shadow-lg bg-white hover:bg-gray-300 transition-all"
+          aria-label="Settings"
+        >
+          <FiSettings className="text-gray-600" />
+          Settings
         </Button>
       </div>
     </div>
