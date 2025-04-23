@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { TrendingUp, Home as HomeIcon, Briefcase, DollarSign, Settings } from "lucide-react"; 
 import styles from "./page.module.css";
 
@@ -6,7 +5,6 @@ export default function HomePage() {  // Rename the function
   return (
     <div>
       <h1>Welcome to No Worry App</h1>
-=======
 import Image from "next/image";
 import styles from "./page.module.css";
 
@@ -99,7 +97,6 @@ export default function Home() {
           Go to nextjs.org →
         </a>
       </footer>
->>>>>>> 734065232d00bba18c5aabdb2ba1319742485388
     </div>
   );
 }
