@@ -70,9 +70,5 @@ const InvestmentApp = () => {
 };
 
 export default function HomePage() {
-  return (
-    <div> {/* Ensure proper opening and closing tags */}
-      <h1>Welcome to No Worry App</h1>
-    </div>
-  );
+  return <InvestmentApp />;
 }
