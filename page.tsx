@@ -14,10 +14,7 @@ import {
 const InvestmentApp = () => {
   return (
     <div className="min-h-screen bg-gradient-to-r from-blue-100 to-blue-300 p-6 flex flex-col items-center">
-      <h1 className="text-4xl font-extrabold text-blue-800 mb-8 drop-shadow-lg">
-        No Worry App
-      </h1>
-      {/* ... rest of your UI ... */}
+      {/* ...your content here */}
     </div>
   );
 };
