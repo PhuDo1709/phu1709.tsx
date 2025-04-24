@@ -1,6 +1,8 @@
 import React from "react";
 import { Card, CardContent } from "@/components/ui/Card";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import styles from "./page.module.css";
 import {
   FiTrendingUp,
   FiHome,
