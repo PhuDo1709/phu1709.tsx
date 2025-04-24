@@ -74,3 +74,4 @@ const InvestmentApp = () => {
 export default function HomePage() {
   return <InvestmentApp />;
 }
+
