@@ -1,4 +1,4 @@
-// ✅ All imports first
+// ✅ All imports at the top
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -12,7 +12,7 @@ import {
   FiSettings,
 } from "lucide-react";
 
-// ✅ Then define your page
+// ✅ Component starts here
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-blue-100 to-blue-300 p-6 flex flex-col items-center">
