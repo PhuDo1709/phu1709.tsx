@@ -1,23 +1,19 @@
-// ✅ All imports at the top
-import React from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+// ✅ All imports go at the top
 import Image from "next/image";
 import styles from "./page.module.css";
-import {
-  FiTrendingUp,
-  FiHome,
-  FiBriefcase,
-  FiDollarSign,
-  FiSettings,
-} from "lucide-react";
 
-// ✅ Component starts here
+// ✅ Function starts after imports
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-100 to-blue-300 p-6 flex flex-col items-center">
-      <h1 className="text-4xl font-bold mb-6">Welcome to No Worry App</h1>
-      {/* More UI here */}
+    <div className={styles.container}>
+      <h1>Welcome to No Worry App</h1>
+      <p>This is your investment dashboard starter. Let's grow it step-by-step!</p>
+      <Image
+        src="/logo.png" // Make sure this image exists in public folder
+        alt="No Worry App Logo"
+        width={200}
+        height={200}
+      />
     </div>
   );
 }
