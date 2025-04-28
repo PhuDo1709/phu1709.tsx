@@ -1,6 +1,8 @@
+// First: ALL imports must be at the TOP
 import Image from "next/image";
 import styles from "./page.module.css";
 
+// Then: export your component
 export default function HomePage() {
   return (
     <div className={styles.container}>
