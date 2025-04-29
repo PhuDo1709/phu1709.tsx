@@ -1,14 +1,14 @@
-// ✅ Imports must always be at the top
+// ✅ Imports first
 import Image from "next/image";
-import styles from "./page.module.css"; // Make sure this file exists too
+import styles from "./page.module.css";
 
-// ✅ Your functional component
+// ✅ Functional component after imports
 export default function HomePage() {
   return (
     <div className={styles.container}>
-      <h1>Welcome to No Worry App</h1>
-      <Image src="/logo.png" alt="No Worry Logo" width={200} height={200} />
-      <p>This app helps you grow your money stress-free!</p>
+      <h1>No Worry App</h1>
+      <Image src="/logo.png" alt="No Worry Logo" width={150} height={150} />
+      <p>Helping you invest smarter and live better.</p>
     </div>
   );
 }
