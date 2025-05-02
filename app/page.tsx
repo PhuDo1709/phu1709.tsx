@@ -5,11 +5,11 @@ import Button from "@/components/ui/button";
 import Image from "next/image";
 import styles from "./page.module.css";
 import {
-  FiTrendingUp,
-  FiHome,
-  FiBriefcase,
-  FiDollarSign,
-  FiSettings,
+  TrendingUp,
+  Home,
+  Briefcase,
+  DollarSign,
+  Settings,
 } from "lucide-react";
 
 export default function HomePage() {
