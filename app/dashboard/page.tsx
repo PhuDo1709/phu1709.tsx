@@ -1,7 +1,7 @@
 // app/dashboard/page.tsx
 import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import  Button  from "@/components/ui/button";
 
 export default function DashboardPage() {
   return (

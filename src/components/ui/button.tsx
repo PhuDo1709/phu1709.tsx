@@ -1,18 +1,14 @@
-// src/components/ui/button.tsx
-import React from 'react';
+import { useRouter } from "next/navigation";
+import Button from "@/components/ui/button";
 
-interface ButtonProps {
-  onClick: () => void;
-  children: React.ReactNode;
-  className?: string;
-}
+const DashboardPage = () => {
+  const router = useRouter();
 
-const Button: React.FC<ButtonProps> = ({ onClick, children, className = '' }) => {
   return (
-    <button onClick={onClick} className={`button ${className}`}>
-      {children}
-    </button>
+    <Button className="mt-3" onClick={() => router.push("/")}>
+      Go Back Home
+    </Button>
   );
 };
 
-export default Button;
+
