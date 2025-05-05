@@ -12,8 +12,7 @@ interface ButtonProps {
 }
 
 const Button: React.FC<ButtonProps> = ({ onClick, children, className = '' }) => {
-  const router = useRouter();
-
+ 
   return (
     <button onClick={onClick} className={`button ${className}`}>
       {children}
