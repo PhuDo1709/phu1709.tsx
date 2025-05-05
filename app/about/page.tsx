@@ -1,8 +1,10 @@
+// app/about/page.tsx
 export default function AboutPage() {
     return (
-      <main className="p-6">
+      <div className="p-10">
         <h1 className="text-2xl font-bold mb-4">About Us</h1>
-        <p>This is the about page of our No Worry App.</p>
-      </main>
+        <p>Welcome to the No Worry App! This page tells you about our mission and team.</p>
+      </div>
     );
   }
+  
