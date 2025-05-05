@@ -1,6 +1,5 @@
 // app/dashboard/page.tsx
 import Link from "next/link";
-import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
