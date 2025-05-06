@@ -2,7 +2,6 @@
 
 "use client"; // <-- Add this line at the very top
 
-import { useRouter } from "next/navigation";  // Ensure it's used only on the client-side
 import React from 'react';
 
 interface ButtonProps {
