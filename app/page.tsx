@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
-import Button from "@/components/ui/button";
+import { Button} from "@/components/ui/button";
 import Image from "next/image";
 import styles from "./page.module.css";
 import {
