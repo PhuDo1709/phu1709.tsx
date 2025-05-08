@@ -1,4 +1,3 @@
-import { Button } from '@/components/ui/button';
 import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"
 import { cn } from "@/lib/utils"
@@ -25,8 +24,4 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 )
 Button.displayName = "Button"
 
-export { Button } from "@/components/ui/button";
-
-
-
-
+export { Button } // ✅ Proper named export
