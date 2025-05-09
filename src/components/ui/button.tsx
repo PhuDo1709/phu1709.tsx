@@ -1,3 +1,4 @@
+// No import of Button here (it's being defined below)
 import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"
 import { cn } from "@/lib/utils"
@@ -22,6 +23,8 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     )
   }
 )
+
 Button.displayName = "Button"
 
-export { Button } // ✅ Proper named export
+// ✅ You can do either of these:
+export { Button }           // Named export (preferred)
