@@ -1,29 +1,17 @@
-import React from 'react';
+// button.tsx
+'use client';
 
-interface ButtonProps {
-  onClick?: () => void; // Optional now
-  children: React.ReactNode;
-  className?: string;
+import Link from 'next/link';
+import { Button as UIButton } from '@/components/ui/button'; // ✅ Renamed to avoid conflict
+
+export default function CustomButton() {
+  return (
+    <Link href="/dashboard">
+      <UIButton className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+        Go to Dashboard
+      </UIButton>
+    </Link>
+  );
 }
 
-const Button: React.FC<ButtonProps> = ({ onClick, children, className = '' }) => {
-  return (
-    <button
-      onClick={onClick}
-      className={`button ${className}`}
-    >
-      {children}
-    </button>
-  );
-};
-
-export default Button;
-import Link from 'next/link';
-import { Button } from '@/components/ui/button'
-
-<Link href="/dashboard">
-  <Button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
-    Go to Dashboard
-  </Button>
-</Link>
 
