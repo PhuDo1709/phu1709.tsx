@@ -1,16 +1,15 @@
-// No import of Button here (it's being defined below)
 import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"
 import { cn } from "@/lib/utils"
 
-export interface ButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   asChild?: boolean
 }
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, asChild = false, ...props }, ref) => {
     const Comp = asChild ? Slot : "button"
+
     return (
       <Comp
         className={cn(
@@ -26,5 +25,4 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 
 Button.displayName = "Button"
 
-// ✅ You can do either of these:
-export { Button }           // Named export (preferred)
+export { Button } // ✅ Use named export only
