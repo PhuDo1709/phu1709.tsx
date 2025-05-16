@@ -1,13 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: false, // or 'class' if you want manual toggling
+  darkMode: false,
   content: [
-    "./app/**/*.{js,ts,jsx,tsx}",   // <-- required for App Router
+    "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#3B82F6", // blue-500
+        "primary-foreground": "#ffffff",
+      },
+    },
   },
   plugins: [],
 };
