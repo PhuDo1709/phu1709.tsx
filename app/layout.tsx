@@ -8,7 +8,7 @@ import Topbar from "@/components/Topbar";
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="flex min-h-screen bg-gray-50 text-gray-800">
+      <body className="bg-red-500 text-white">
         <Sidebar />
         <div className="flex-1 flex flex-col">
           <Topbar />
