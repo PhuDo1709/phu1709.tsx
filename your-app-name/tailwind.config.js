@@ -1,16 +1,19 @@
-/** @type {import('tailwindcss').Config} */
-const config = {
+import type { Config } from 'tailwindcss';
+
+const config: Config = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./src/components/**/*.{js,ts,jsx,tsx}"  // ✅ fixed this path
+    './app/**/*.{js,ts,jsx,tsx}',
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {},
   },
   plugins: [],
-}
-export default config
+};
+
+export default config;
+
 
 
 

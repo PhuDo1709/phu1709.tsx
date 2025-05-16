@@ -1,17 +1,14 @@
-// components/sidebar.tsx
-
-import Link from "next/link";
-
+// Sidebar.tsx
 export default function Sidebar() {
   return (
-    <aside className="w-64 bg-white shadow-md p-4 space-y-4">
-      <h2 className="text-2xl font-bold mb-6">No Worry</h2>
-      <nav className="flex flex-col space-y-2">
-        <Link href="/dashboard" className="hover:text-blue-600">Dashboard</Link>
-        <Link href="/projects" className="hover:text-blue-600">Projects</Link>
-        <Link href="/portfolio" className="hover:text-blue-600">Portfolio</Link>
-        <Link href="/settings" className="hover:text-blue-600">Settings</Link>
-      </nav>
-    </aside>
+    <div className="w-64 bg-gray-800 text-white h-screen p-4">
+      <ul>
+        <li className="mb-4"><a href="#" className="hover:text-yellow-400">Dashboard</a></li>
+        <li className="mb-4"><a href="#" className="hover:text-yellow-400">Projects</a></li>
+        <li className="mb-4"><a href="#" className="hover:text-yellow-400">Portfolio</a></li>
+        <li><a href="#" className="hover:text-yellow-400">Settings</a></li>
+      </ul>
+    </div>
   );
 }
+
