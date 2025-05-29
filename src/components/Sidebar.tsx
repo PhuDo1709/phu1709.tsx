@@ -1,14 +1,14 @@
-// Sidebar.tsx
 export default function Sidebar() {
   return (
-    <div className="w-64 bg-gray-800 text-white h-screen p-4">
-      <ul>
-        <li className="mb-4"><a href="#" className="hover:text-yellow-400">Dashboard</a></li>
-        <li className="mb-4"><a href="#" className="hover:text-yellow-400">Projects</a></li>
-        <li className="mb-4"><a href="#" className="hover:text-yellow-400">Portfolio</a></li>
-        <li><a href="#" className="hover:text-yellow-400">Settings</a></li>
+    <aside className="w-64 h-full bg-secondary text-textPrimary p-6">
+      <h2 className="text-xl font-semibold mb-4">Menu</h2>
+      <ul className="space-y-2">
+        <li className="hover:text-primary cursor-pointer">Dashboard</li>
+        <li className="hover:text-primary cursor-pointer">Investments</li>
+        <li className="hover:text-primary cursor-pointer">Profile</li>
       </ul>
-    </div>
-  );
+    </aside>
+  )
 }
+
 
