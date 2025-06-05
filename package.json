@@ -29,5 +29,19 @@
     "postcss": "^8.5.3",
     "tailwindcss": "^4.1.8",
     "typescript": "^5"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhuDo1709/phu1709.tsx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PhuDo1709/phu1709.tsx/issues"
+  },
+  "homepage": "https://github.com/PhuDo1709/phu1709.tsx#readme"
 }
