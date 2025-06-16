@@ -1,13 +1,18 @@
-import './globals.css';
-import { ReactNode } from 'react';
+import '../styles/globals.css';
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export const metadata = {
+  title: 'No Worry App',
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-brand-dark text-brand-light">{children}</body>
     </html>
   );
 }
+
+
 
 
 

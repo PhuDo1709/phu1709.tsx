@@ -1,23 +1,13 @@
-import Link from 'next/link';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-
-export default function DashboardPage() {
+export default function Home() {
   return (
-    <div className="p-4">
-      <Card>
-        <CardHeader>
-          <CardTitle>Your Dashboard</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p className="text-sm text-gray-600">Manage your preferences and account.</p>
-          <Button asChild className="mt-3">
-            <Link href="/">Go Back Home</Link>
-          </Button>
-        </CardContent>
-      </Card>
-    </div>
+    <main className="p-8">
+      <div className="bg-brand-dark text-brand-light p-6 rounded-xl shadow-lg">
+        <h1 className="text-3xl font-bold text-brand-primary">🎨 Tailwind Colors Working</h1>
+        <p className="mt-4">This should have a dark background and light text.</p>
+      </div>
+    </main>
   );
 }
+
 
 
