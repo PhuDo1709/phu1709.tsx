@@ -1,20 +1,25 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
-    "./styles/**/*.{css}",
   ],
   theme: {
     extend: {
       colors: {
-        'brand-dark': '#1e293b',
-        'brand-light': '#f8fafc',
-        'brand-primary': '#2563eb',
-      },
-    },
+        background: "#f8fafc", // <-- Add this
+        primary: "#1e40af",    // Example for bg-primary
+        secondary: "#9333ea",  // Example for bg-secondary
+        brand: {
+          dark: "#111827",
+          light: "#f9fafb",
+          primary: "#3b82f6"
+        }
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 };
+
 
 
