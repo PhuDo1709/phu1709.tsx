@@ -1,9 +1,10 @@
 // pages/_app.tsx
-import '@/styles/global.css'; // Adjust if needed
 import type { AppProps } from 'next/app';
+import '@/styles/global.css';
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
 }
 
 export default MyApp;
+
