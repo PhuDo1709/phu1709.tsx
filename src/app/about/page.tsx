@@ -1,14 +1,13 @@
-// app/about/page.tsx
+import Hero from '../components/ui/hero';
 
-export default function AboutPage() {
-    return (
-      <div>
-        <h1>About Us</h1>
-        <p>Welcome to the About page!</p>
-      </div>
-    );
-  }
-  
+export default function Home() {
+  return (
+    <main>
+      <Hero />
+    </main>
+  );
+}
+
   
   
   
