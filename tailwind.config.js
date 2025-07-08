@@ -13,7 +13,6 @@ module.exports = {
         'brand-dark': '#1A202C',
         'brand-light': '#F7FAFC',
         'brand-primary': '#3182CE',
-        'background': 'var(--background)', // ✅ this line added
       },
     },
   },
