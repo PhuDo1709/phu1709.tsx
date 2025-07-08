@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background: #f0f0f0;     /* ✅ Define the variable */
+  --foreground: #111111;     /* optional */
+}
+
 body {
-  /* background: var(--background); */
-  /* color: var(--foreground); */
+  background: var(--background); /* optional */
+  color: var(--foreground);      /* optional */
   font-family: Arial, Helvetica, sans-serif;
 }
+
 
 
