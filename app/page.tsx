@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-white text-blue-600 text-3xl">
-      Welcome to No Worry App 🚀
+    <main className="p-10 text-4xl font-bold text-brand-primary">
+      Welcome to No Worry App 👋 (Home)
     </main>
   );
 }

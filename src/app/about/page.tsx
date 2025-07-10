@@ -1,13 +1,11 @@
-import Hero from '@/components/Hero';
-
-
-export default function Home() {
+export default function AboutPage() {
   return (
-    <main>
-      <Hero />
+    <main className="p-10 text-4xl font-bold text-test-pink">
+      This is the About Page 👀
     </main>
   );
 }
+
 
   
   
