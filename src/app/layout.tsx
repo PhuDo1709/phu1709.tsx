@@ -1,4 +1,4 @@
-import '../styles/globals.css'; // ✅ must be here
+import '../styles/globals.css'; // ✅ correct one
 
 import type { ReactNode } from 'react';
 
@@ -10,10 +10,13 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-brand-light text-brand-dark">{children}</body>
+      <body className="bg-brand-light text-brand-dark">
+        {children}
+      </body>
     </html>
   );
 }
+
 
 
 
