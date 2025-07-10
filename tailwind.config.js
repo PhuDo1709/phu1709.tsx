@@ -1,4 +1,3 @@
-// tailwind.config.js
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -13,11 +12,13 @@ module.exports = {
         'brand-dark': '#1A202C',
         'brand-light': '#F7FAFC',
         'brand-primary': '#3182CE',
+        'background': '#F9FAFB', // ✅ Add this line
       },
     },
   },
   plugins: [],
 };
+
 
 
 
