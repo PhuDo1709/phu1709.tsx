@@ -1,18 +1,20 @@
-// src/app/layout.tsx
-import '@/styles/globals.css'; // 👈 this is required
+import '../styles/globals.css'; // ✅ must be here
+
+import type { ReactNode } from 'react';
 
 export const metadata = {
   title: 'No Worry App',
-  description: 'Your financial buddy',
+  description: 'Created by bro 👊',
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-brand-light text-brand-dark">{children}</body>
     </html>
   );
 }
+
 
 
 
