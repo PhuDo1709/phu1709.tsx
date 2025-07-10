@@ -1,19 +1,15 @@
-// app/layout.tsx
-import '../styles/globals.css';
+import '../styles/globals.css'; // ✅ This loads Tailwind styles
 
 export const metadata = {
   title: 'No Worry App',
-  description: 'Investment app made easy',
+  description: 'Created by bro 👊',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>{children}</body>
     </html>
   );
 }
+

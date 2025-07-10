@@ -1,5 +1,5 @@
 // src/app/layout.tsx
-import '../styles/global.css'; // 👈 this is required
+import '@/styles/globals.css'; // 👈 this is required
 
 export const metadata = {
   title: 'No Worry App',
