@@ -1,10 +1,11 @@
-export default function AboutPage() {
+export default function Home() {
   return (
-    <main className="p-10 text-4xl font-bold text-test-pink">
-      This is the About Page 👀
+    <main className="min-h-screen flex items-center justify-center bg-test-pink text-white text-4xl font-bold">
+      🎨 Tailwind is working bro!
     </main>
   );
 }
+
 
 
   
