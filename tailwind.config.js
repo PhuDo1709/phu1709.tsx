@@ -7,12 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        // Replace brand-primary with deep blue for now
-        'brand-primary': '#1E3A8A',  // Deep Blue
-        'background': '#F3F4F6',     // Light neutral background (gray-100)
-        'textPrimary': '#374151',    // Dark gray for text
-      },
+     colors: {
+  'brand-primary': '#1E3A8A',
+  'background': '#F3F4F6',
+  'text-primary': '#374151',   // lowercase, hyphen
+},
     },
   },
   plugins: [],

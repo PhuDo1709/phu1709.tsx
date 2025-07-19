@@ -4,7 +4,7 @@
 
 html,
 body {
-  @apply bg-background text-textPrimary;
+  @apply bg-background text-text-primary;
 }
 
 
