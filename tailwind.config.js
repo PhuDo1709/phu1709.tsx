@@ -7,15 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-     colors: {
-  'brand-primary': '#1E3A8A',
-  'background': '#F3F4F6',
-  'text-primary': '#374151',   // lowercase, hyphen
-},
+      colors: {
+        'brand-primary': '#1E3A8A',
+        'background': '#F3F4F6',
+        'text-primary': '#374151',
+      },
     },
   },
   plugins: [],
 };
+
 
 
 

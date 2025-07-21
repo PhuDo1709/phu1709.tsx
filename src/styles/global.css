@@ -4,7 +4,9 @@
 
 html,
 body {
-  @apply bg-background text-text-primary;
+  background-color: #F3F4F6;
+  color: #374151;
 }
+
 
 
