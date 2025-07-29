@@ -1,13 +1,12 @@
-import Hero from '@/components/Hero'; // ✅ correct
-
-
 export default function Home() {
   return (
-    <main>
-      <Hero />
-    </main>
+    <div className="bg-primary text-white p-4 rounded-xl">
+      Hello from Mr. Color 👋
+    </div>
   );
 }
+
+
 
 
 
