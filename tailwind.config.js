@@ -9,11 +9,18 @@ module.exports = {
   theme: {
   extend: {
     colors: {
-      background: '#ffffff', // or your desired color
-      textPrimary: '#000000', // add any other custom colors
+      background: '#f8fafc', // or any color you want
+      textPrimary: '#1f2937',
+      brand: {
+        light: '#fef3c7',
+        dark: '#92400e',
+        primary: '#f59e0b',
+      },
     },
   },
-}
+},
+
+
 
 
 
