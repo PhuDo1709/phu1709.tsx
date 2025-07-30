@@ -7,14 +7,14 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        primary: "#1A73E8", // defined correctly
-      },
+  extend: {
+    colors: {
+      background: '#ffffff', // or your desired color
+      textPrimary: '#000000', // add any other custom colors
     },
   },
-  plugins: [],
-};
+}
+
 
 
 
