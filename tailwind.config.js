@@ -9,7 +9,7 @@ module.exports = {
  theme: {
   extend: {
     colors: {
-      background: '#f5f5f5', // or any hex/RGB color
+      background: '#f9fafb', // or any hex/RGB color
     },
   },
 }
