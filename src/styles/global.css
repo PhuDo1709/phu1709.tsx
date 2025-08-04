@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-background text-card-foreground;
+html, body {
+  @apply bg-background text-textPrimary;
 }
+
 
 
 
