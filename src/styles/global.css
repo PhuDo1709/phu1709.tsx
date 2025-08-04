@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 body {
-  @apply bg-background text-textPrimary;
+  @apply bg-background text-card-foreground;
 }
+
 
 
 
