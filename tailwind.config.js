@@ -1,22 +1,22 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
 module.exports = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
-    "./src/**/*.{js,ts,jsx,tsx}", // ✅ this one is important
+    "./app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       colors: {
-        background: "#f8fafc", // 🎯 add this line
-        textPrimary: "#1f2937", // optional if you use this
-        // Add more custom colors if you need
+        'brand-dark': '#1a202c',
+        'brand-light': '#f7fafc',
+        'brand-primary': '#3b82f6', // or whatever color you want
       },
     },
   },
   plugins: [],
 }
+
 
 
 
