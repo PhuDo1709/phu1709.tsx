@@ -9,12 +9,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: '#f9fafb', // <- custom bg name
+        'brand-primary': '#3b82f6',
+        'brand-light': '#f7fafc',
       },
     },
   },
   plugins: [],
 }
+
 
 
 

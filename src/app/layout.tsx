@@ -1,6 +1,9 @@
 // /src/app/layout.tsx
 import '../styles/global.css';
 
+// src/app/layout.tsx
+import '../styles/global.css';
+
 export const metadata = {
   title: 'No Worry App',
   description: 'Created by bro 👊',
@@ -9,12 +12,13 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-background min-h-screen text-black">
+      <body className="bg-brand-light text-gray-900">
         {children}
       </body>
     </html>
   );
 }
+
 
 
 

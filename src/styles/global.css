@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
-  @apply bg-background text-textPrimary;
+html,
+body {
+  @apply bg-brand-light text-gray-900; /* Optional: default text color */
 }
+
 
 
 
